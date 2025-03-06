@@ -14,3 +14,5 @@ var statuscode;
 })(statuscode || (statuscode = {}));
 var e1 = statuscode.BadRequest;
 console.log(e1);
+var e2 = statuscode.NotFound;
+console.log(e2);
