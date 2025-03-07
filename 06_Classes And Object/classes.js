@@ -1,23 +1,23 @@
-var Employee1 = /** @class */ (function () {
+"use strict";
+class Employee1 {
     // constructor(){
     //     console.log("Employee Constructor Called");
     // }
-    function Employee1(Id, Name, Gender) {
+    constructor(Id, Name, Gender) {
         this.id = Id;
         this.name = Name;
         this.gender = Gender;
     }
-    Employee1.prototype.display = function () {
-        console.log("id: ".concat(this.id, "  name: ").concat(this.name, "  gender: ").concat(this.gender));
-    };
-    return Employee1;
-}());
-var res5 = new Employee1();
+    display() {
+        console.log(`id: ${this.id}  name: ${this.name}  gender: ${this.gender}`);
+    }
+}
+let res5 = new Employee1();
 res5.display();
-var res2 = new Employee1();
-res2.id = 1;
-res2.name = "Ajay";
-res2.gender = "Male";
-res2.display();
-var res3 = new Employee1(4, "Vijay", 'Male');
+let res9 = new Employee1();
+res9.id = 1;
+res9.name = "Ajay";
+res9.gender = "Male";
+res9.display();
+let res3 = new Employee1(4, "Vijay", 'Male');
 res3.display();

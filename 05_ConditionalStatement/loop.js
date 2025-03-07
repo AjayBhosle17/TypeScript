@@ -1,10 +1,11 @@
+"use strict";
 var num = [10, 20, 30, 40];
 console.error("for loop");
-for (var i_1 = 0; i_1 < num.length; i_1++) {
-    console.log(num[i_1]);
+for (let i = 0; i < num.length; i++) {
+    console.log(num[i]);
 }
 console.log("While loop");
-var i = 0;
+let i = 0;
 while (i < num.length) {
     console.log(num[i]);
     i++;
@@ -16,11 +17,10 @@ do {
     i++;
 } while (i < num.length);
 console.log('for  in loop');
-for (var i_2 in num) {
-    console.warn(i_2);
+for (let i in num) {
+    console.warn(i);
 }
 console.log('for of loop');
-for (var _i = 0, num_1 = num; _i < num_1.length; _i++) {
-    var i_3 = num_1[_i];
-    console.warn(i_3);
+for (let i of num) {
+    console.warn(i);
 }

@@ -1,6 +1,7 @@
+"use strict";
 //tuple        // here fixed size collection
-var res1 = [10, "Ajay"];
-var res2 = [20, 'Ajay']; // here fixed size collection
+let res1 = [10, "Ajay"];
+let res2 = [20, 'Ajay']; // here fixed size collection
 console.log(res2[0]);
 console.log(res2[1]);
 console.log(res2[2]);
@@ -12,7 +13,7 @@ var statuscode;
     statuscode[statuscode["Forbidden"] = 403] = "Forbidden";
     statuscode[statuscode["BadRequest"] = 400] = "BadRequest";
 })(statuscode || (statuscode = {}));
-var e1 = statuscode.BadRequest;
+let e1 = statuscode.BadRequest;
 console.log(e1);
-var e2 = statuscode.NotFound;
+let e2 = statuscode.NotFound;
 console.log(e2);

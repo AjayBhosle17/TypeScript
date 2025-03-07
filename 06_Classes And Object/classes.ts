@@ -24,12 +24,12 @@ class Employee1 {
 let res5 = new Employee1();
 res5.display();
 
-let res2 = new Employee1();
+let res9 = new Employee1();
 
-res2.id=1;
-res2.name="Ajay";
-res2.gender="Male";
-res2.display();
+res9.id=1;
+res9.name="Ajay";
+res9.gender="Male";
+res9.display();
 
 
 let res3 = new Employee1(4,"Vijay",'Male');

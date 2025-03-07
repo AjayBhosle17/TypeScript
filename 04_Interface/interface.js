@@ -1,16 +1,17 @@
-var c1 = {
+"use strict";
+let c1 = {
     id: 10,
     name: 'Ajay'
 };
-console.log("id is : ".concat(c1.id, " name is : ").concat(c1.name));
-var c2 = {
+console.log(`id is : ${c1.id} name is : ${c1.name}`);
+let c2 = {
     id: 20,
     name: "vijay"
 };
-console.log("id is : ".concat(c2.id, " name is : ").concat(c2.name));
-var c3 = {
+console.log(`id is : ${c2.id} name is : ${c2.name}`);
+let c3 = {
     id: 20,
     name: 'Ajay Bhosle',
     role: 'Developer'
 };
-console.error("id is : ".concat(c3.id, " name is: ").concat(c3.name, " role ").concat(c3.role));
+console.error(`id is : ${c3.id} name is: ${c3.name} gender: ${c3.gender} role ${c3.role}`);

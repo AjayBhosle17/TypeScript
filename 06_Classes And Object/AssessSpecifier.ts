@@ -45,7 +45,7 @@ class Employee{
 
     // use parameter property
 
-     constructor(public name?:string ,public salary?:number){}
+    constructor(public name?:string ,public salary?:number){}
 
     display(){
 

@@ -1,9 +1,10 @@
-var n1 = 10;
+"use strict";
+let n1 = 10;
 if (n1 == 10) {
     console.log("TEN");
 }
 else {
     console.log("NOT TEN");
 }
-var a2 = (n1 < 20) ? "Vote" : "Not Vote";
+let a2 = (n1 > 20) ? "Vote" : "Not Vote";
 console.log(a2);
