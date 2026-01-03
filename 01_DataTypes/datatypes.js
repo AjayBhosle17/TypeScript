@@ -76,3 +76,57 @@ var arr = [
 arr.forEach(function (x) {
     console.log("Id= ".concat(x.id, " Name = ").concat(x.name, " price= ").concat(x.price));
 });
+var Employess = /** @class */ (function () {
+    function Employess(id, name) {
+        this.Id = id;
+        this.Name = name;
+    }
+    Employess.prototype.getname = function () {
+        return "".concat(this.Id, " - ").concat(this.Name);
+    };
+    return Employess;
+}());
+var obj1 = new Employess(20, 'AB');
+console.log(obj1.getname());
+function add(a) {
+    return a;
+}
+var a = add('ajay');
+var b = add(1);
+var c = add(true);
+var EmployeeInfoData = [{
+        Id: 1,
+        name: 'Ajay Bhosle',
+        Address: {
+            village: 'Kumbephal',
+            city: 'Ambajogai',
+            district: 'Beed'
+        }
+    }];
+EmployeeInfoData.forEach(function (element) {
+    console.log(element.Id + ' ' +
+        element.name + ' ' +
+        element.Address.village + ' ' +
+        element.Address.city + ' ' +
+        element.Address.district);
+});
+// var EmployeeInfoData = [
+//     {
+//         Id: 1,
+//         name: 'Ajay Bhosle',
+//         Address: {
+//             village: 'Kumbephal',
+//             city: 'Ambajogai',
+//             district: 'Beed'
+//         }
+//     }
+// ];
+// EmployeeInfoData.forEach(element => {
+//     console.log(
+//         element.Id + ' ' +
+//         element.name + ' ' +
+//         element.Address.village + ' ' +
+//         element.Address.city + ' ' +
+//         element.Address.district
+//     );
+// });

@@ -162,4 +162,49 @@ function add<T>(a:T):T{
 var a=add('ajay')
 var b=add(1)
 var c=add(true)
+ 
 
+var EmployeeInfoData = [{
+
+     Id:1,
+     name:'Ajay Bhosle',
+     Address:{
+
+         village:'Kumbephal',
+         city:'Ambajogai',
+         district:'Beed'
+     }
+}]
+
+EmployeeInfoData.forEach(element => {
+     
+         console.log(
+       element.Id + ' ' +
+         element.name + ' ' +
+         element.Address.village + ' ' +
+         element.Address.city + ' ' +
+         element.Address.district)
+});
+
+
+// var EmployeeInfoData = [
+//     {
+//         Id: 1,
+//         name: 'Ajay Bhosle',
+//         Address: {
+//             village: 'Kumbephal',
+//             city: 'Ambajogai',
+//             district: 'Beed'
+//         }
+//     }
+// ];
+
+// EmployeeInfoData.forEach(element => {
+//     console.log(
+//         element.Id + ' ' +
+//         element.name + ' ' +
+//         element.Address.village + ' ' +
+//         element.Address.city + ' ' +
+//         element.Address.district
+//     );
+// });
