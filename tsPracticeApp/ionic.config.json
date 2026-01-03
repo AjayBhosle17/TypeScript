@@ -1,0 +1,7 @@
+{
+  "name": "tsPracticeApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
