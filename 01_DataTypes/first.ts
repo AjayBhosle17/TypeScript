@@ -87,3 +87,11 @@ let a6:undefined=undefined;
 function add(a:number,b:number):number{
     return a+b;
 }
+
+
+let num123=['10','20'];
+num123.push('Ajay');
+
+num123.forEach(x=>console.log(x));
+
+
